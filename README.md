@@ -1,6 +1,4 @@
-
-
-##CryptoPoops Smart Contract
+## CryptoPoops Smart Contract
 The CryptoPoops smart contract is a Non-Fungible Token (NFT) contract that allows users to create and manage unique tokens representing CryptoPoops. Here's a brief overview of the contract and its functionalities:
 
 Total Supply: Tracks the total supply of CryptoPoops tokens.
@@ -10,7 +8,7 @@ Collection Resource: Manages the collection of CryptoPoops tokens, allowing user
 Minter Resource: Facilitates the creation of new CryptoPoops tokens.
 
 
-#Transactions
+# Transactions
 1. Create Collection
 Purpose: Initializes a new collection for storing CryptoPoops tokens.
 Prepare: Creates an empty collection and links it to a public reference.
@@ -21,7 +19,7 @@ Purpose: Mints a new CryptoPoops token and adds it to the recipient's collection
 Prepare: Borrows the Minter resource and the recipient's collection reference.
 Execute: Logs a message confirming the addition of the new token to the collection.
 
-#Scripts
+# Scripts
 1. Get Collection IDs
 Purpose: Retrieves the IDs of CryptoPoops tokens stored in a user's collection.
 Functionality: Retrieves the public collection reference and returns the IDs of the tokens.
@@ -30,7 +28,7 @@ Purpose: Retrieves metadata (name, favorite food, lucky number) of a specific Cr
 Functionality: Retrieves the public collection reference, borrows an authorized reference to the token, and logs its metadata.
 
 
-#Usage
+# Usage
 Initialize the contract and create a collection.
 Mint new CryptoPoops tokens and add them to users' collections.
 Use scripts to retrieve collection IDs and token metadata.
